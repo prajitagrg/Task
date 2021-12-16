@@ -1,0 +1,322 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <title>DARAZ</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-xxl">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">
+                        <img src="images/logo.png" width="110" height="45">
+                    </a>  
+                </div>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end align-center" id="myNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink"  data-bs-toggle="dropdown" aria-expanded="false">Fashion</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item"  href="#">Women's Fashion</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" href="#">Clothing</a>
+                                            <a class="dropdown-item" href="#">Shoes</a>
+                                            <a class="dropdown-item" href="#">Accessories</a>
+                                            <a class="dropdown-item" href="#">Women's Bags</a> 
+                                        </li>  
+                                    </ul>
+                                </li>
+                                
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item"  href="#">Men's Fashion</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" href="#">Clothing</a>
+                                            <a class="dropdown-item" href="#">Men's Bags</a>
+                                            <a class="dropdown-item" href="#">Shoes</a>
+                                            <a class="dropdown-item" href="#">Accessories</a> 
+                                        </li>  
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item"  href="#">Women's Fashion</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item" href="#">Clothing</a>
+                                            <a class="dropdown-item" href="#">Shoes</a>
+                                            <a class="dropdown-item" href="#">Accessories</a>
+                                            <a class="dropdown-item" href="#">Women's Bags</a> 
+                                        </li>  
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink"  data-bs-toggle="dropdown" aria-expanded="false">Groceries</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Fruits & Vegetables</a></li>
+                                <li><a class="dropdown-item" href="#">Frozen Items</a></li>
+                                <li><a class="dropdown-item" href="#">Bakery</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item"  href="#">Pet Supplies</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Pet Food</a></li>
+                                        <li><a class="dropdown-item" href="#">Bathing and Grooming</a></li>
+                                        <li><a class="dropdown-item" href="#">Pet Collar</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                           
+                        </li>
+
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="sec1 my-3">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/img1.jpg" class="img1 responsive mx-auto d-block" alt="...">  
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/img2.png" class="img2 responsive mx-auto d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/img3.jpg" class="img3 responsive mx-auto d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/img4.jpg" class="img4 responsive mx-auto d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="sec2 m-3 ms-5 me-4">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-12 col-lg-6">
+                        <img src="images/img5.jpg" width="100%">
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <section class="sec9 mt-5">
+                            <h2 class="fw-bold text-dark mx-5 mt-5">Women’s Hoodies & Sweatshirts</h2>
+                            <div class="text">
+                                <p class="h5 text-muted my-3 ms-5 me-5">Winters demand some warm clothing. We look for sweaters, shawls and jackets but what makes your winters cooler and terrific are hoodies. They are very youthful and make you look cool and trendy. One best thing about hoodies is that you don’t need to have a lot of hoodies. Just one or two hoodies are enough for you and you can use them for a good time. You don’t have to feel conscious about wearing them. Layer them underneath or wear nothing at all and they’ll look just fine. There is no right of wrong way of wearing a hoodie. It is so comfortable that you can even wear them for workout or walk. Even sweatshirts are great to wear in winters.
+                                    <a href="blog.html" class="h6 stretched-link text-primary">Read more</a>
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec3 m-3">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                                <img src="images/img6.jpg" class="card-img-top" alt="image 6" width="80%">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary m-2">Biagji Gaming Mouse with LED Backlit</h5>
+                                <p class="card-text text-danger fw-bold m-2">Rs. 280</p>
+                                <div class="container ms-5">
+                                    <a href="gaming-mouse.html" class="stretched-link text-secondary m-5">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/img7.jpg" class="card-img-top" alt="image 6">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary m-2">Laptop Stand Alloy Alluminum Body</h5>
+                                <p class="card-text text-danger fw-bold m-2">Rs. 1,199</p>
+                                <div class="container ms-5">
+                                    <a href="laptopstand.html" class="link-secondary ms-5">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/img8.jpg" class="card-img-top" alt="image 6">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary m-2">Electric Portable Fan Heater With 2 Heat Settings And Cool Air Seeting</h5>
+                                <p class="card-text text-danger fw-bold m-2">Rs. 1090</p>
+                                <div class="container ms-5">
+                                    <a href="electric-fan.html" class="link-secondary ms-5">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec4 m-3">
+            <img src="images/bg-img.jpg" alt="background-image" style="width:100%; height: 420px;">
+            <div class="centered">
+                <h3 class="mb-3 text-dark fw-bold">daraz</h1>
+                <h2 class="text-dark">THE ULTIMATE GUIDE TO BECOMING</h2>
+                <div class="bg-image ms-1 mb-5">
+                    <img src="images/bg-img1.png" alt="bg-image" style="width: 100%;">
+                </div>
+                <div class="text text-dark fw-bold mt-5">
+                    <p style="font-size: 1.8vw;">A SELLER ON DARAZ!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec5 m-4">
+            <div class="row row-cols-3 row-cols-md-3 g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/img9.png" class="card-img-top" alt="image 9">
+                        <div class="card-body">
+                            <p>Buying Guide, Daraz</p>
+                            <a href="blog1.html" class="card-link">
+                                <h4 class="card-title text-dark fw-bold">Here are the bank partners for the 12.12 - The Year-End Sale</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/img10.png" class="card-img-top" alt="image 10">
+                        <div class="card-body">
+                            <p>Buying Guide, Daraz</p>
+                            <a href="blog2.html" class="card-link">
+                                <h4 class="card-title text-dark fw-bold">Why DarazMall will be your favourite Online Mall - Read & Find Out</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/img11.png" class="card-img-top" alt="image 11">
+                        <div class="card-body">
+                            <p>Daraz</p>
+                            <a href="blog3.html" class="card-link">
+                                <h4 class="card-title text-dark fw-bold">The Perfect Place To Shop Online - DarazMall Promises 100% Authenticity</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </section>
+    </header>
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="p-4">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold">Daraz</h6>
+                        <p class="mt-3">Daraz is a global online marketplace with ecommerce stores in Pakistan, Bangladesh, Nepal, Sri Lanka and Myanmar.</p>
+                        <h6 class="mt-4">Convenient Online Shopping in Nepal</h6>
+                        <p class="mt-3">Daraz is the ultimate Nepali eCommerce website that offers a solution for all needs of the customers. It has a wide and assorted range of products including clothing, electronics, mobile phones, home and living, health and beauty and much more.</p>
+                    </div>
+                    
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h5 class="text-muted mb-3">Quick links</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-muted">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-muted">About Daraz</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-muted">Daraz Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-muted">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <ul class="list-unstyled">
+                            <li>
+                                <p class="h5 text-muted mb-3">Follow Us</p>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/daraznp/?spm=a2a0e.pdp.9792859530.d_fbk.3a2erA0QrA0Q7j&scm=1003.4.icms-zebra-100024112-2890917.OTHER_5439624051_2540324" target="_blank">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="https://www.facebook.com/daraznp/?spm=a2a0e.pdp.9792859530.d_fbk.3a2erA0QrA0Q7j&scm=1003.4.icms-zebra-100024112-2890917.OTHER_5439624051_2540324" target="_blank">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                               <a href="https://www.instagram.com/daraz_np/?spm=a2a0e.pdp.9792859530.d_ins.3a2erA0QrA0Q7j&scm=1003.4.icms-zebra-100024112-2890917.OTHER_5439624052_2540324" target="_blank">
+                                    <i class="bi bi-instagram"></i>
+                               </a>
+                               <a href="https://www.youtube.com/channel/UC1S5p-emJ_zFN_xV4-H-Rgw" target="_blank">
+                                    <i class="bi bi-youtube"></i>
+                               </a>
+                            </li>
+                        </ul>   
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h5 class="mb-4">Subscribe</h5>
+                        <div class="input-group input-group mb-2 mt-4"><input type="text" class="form-control" placeholder="Enter your e-mail address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append"><button class="btn btn-secondary" type="button" id="button-addon2"> <b>Subscribe</b></button></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © Daraz 2021
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
